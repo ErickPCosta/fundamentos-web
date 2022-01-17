@@ -26,12 +26,14 @@
         <div>
             <form class="coluna">
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome">
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <div id="txtNome"></div>
             
                 <label for="email">E-mail:</label> 
-                <input type="email" id="email" >
+                <input type="email" id="email" onkeyup="validaEmail()">
+                <div id="txtEmail"></div>
                 
-                <label for="assutno">Assunto:</label> 
+                <label for="assunto">Assunto:</label> 
                 <textarea name="assunto" id="assunto" cols="100" rows="6"></textarea>
 
             </form>  
@@ -47,7 +49,7 @@
             <p>Paraisópolis, São Paulo - SP</p>
             <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14622.574525292755!2d-46.7245559!3d-23.6171104!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3d5f9280dfc03ec1!2sUni%C3%A3o%20dos%20Moradores%20e%20do%20Com%C3%A9rcio%20de%20Parais%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1641917885233!5m2!1spt-BR!2sbr"
-        width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </div>
 
@@ -73,6 +75,9 @@
         </p>
        
     </footer>
+
+    <script src="assets/js/script.js"></script>
+
 </body>
 
 </html>

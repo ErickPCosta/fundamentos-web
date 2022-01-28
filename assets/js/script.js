@@ -35,7 +35,7 @@ function validaEmail() {
         txtEmail.innerHTML = "E-mail Inváldio"
         txtEmail.style.color = "red"
     }
- else {
+else {
     txtNome.innerHTML = "E-mail Válido"
     txtNome.style.color = "green"
 }
